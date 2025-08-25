@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #e6e4e8;
+	margin: 25px 50px 25px 50px;
+	margin: 0;
+	
+/*
+	background-image: url(Images/YogaMama.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px solid red;
+/*use the word 'Cover' for the background image size to autofit the window size on any device.*/
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+h1{
+	color: #006400;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	font-size: 25px;
+	color: #996464;
+}
+h3 {
+	text-align: left;
+	font-size: 25px;
+	color: #996464;
+}
+h4 {
+	font-size: 150px;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-align: justify;
+	color: #c49696;
+}
+span.boldtext {
+	font-weight: bold;
+}
+span.italic {
+	font-style: italic;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+/*Navigation Menu Bar*/
+.topnav{
+	overflow: hidden;
+	background-image: linear-gradient(to bottom, rgba(179,128,128,1), rgba(159,96,96,1), rgba(179,128,128,1));
+	height: 65px;
+}
+/* Styling the links */
+.topnav a {
+	float: right;
+	display: block;
+	color: #e3cece;
+	text-align: center;
+	font-size: 35px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/*Changing the hover color*/
+.topnav a:hover {
+	background-color: #a35c5c;
+	color: #b57e7e;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Explore links as List Types */
+ul.explore {
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.links a {
+	display: block;
+	color: #d0afaf;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Follow links as List Types */
+ul.follow {
+	text-align: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+/* Images */
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* Centered Text */
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*
+.footer {
+	padding: 200px;
+	text-align: center;
+	background: url(Images/Footer.png);
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+}
+*/
+/*
+Fake image
+.fakeimg {
+  background-color: #e6e4e8;
+  img src="img_girl.jpg"
+  width: 100%;
+  padding: 20px;
+}
+*/

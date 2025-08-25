@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Header Title */
+.header {
+	padding: 30px;
+	text-align: center;
+	bachground: #e6e4e8;
+}
+
+h1 {
+	color: #c49696;
+	font-family: Cooper Black;
+	font-size: 60px;
+	text-align: left;
+}
+
+h2 {
+	color: RosyBrown;
+	font-family: Mistral;
+	font-size: 70px;
+	text-align: left;
+}
+
+h3 {
+	text-align: center;
+	font-size: 25px;
+	color: #996464;
+}
+
+h4 {
+	text-align: left;
+	font-size: 25px;
+	color: #996464;
+}
+}
+
+h4 {
+	color: #228B22;
+}
+
+
+body{
+	background-color: #e6e4e8;
+	margin: 25px 50px 25px 50px;
+	margin: 0;
+}
+
+p {
+	font-family: Verdana;
+	font-size: 15px;
+	text-align: left;
+}
+span.boldtext {
+	font-weight: bold;
+}
+span.italic {
+	font-style: italic;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+/*Navigation Menu Bar*/
+.topnav{
+	overflow: hidden;
+	background-image: linear-gradient(to bottom, rgba(179,128,128,1), rgba(159,96,96,1), rgba(179,128,128,1));
+	height: 65px;
+}
+/* Styling the links */
+.topnav a {
+	float: right;
+	display: block;
+	color: #e3cece;
+	text-align: center;
+	font-size: 35px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/*Changing the hover color*/
+.topnav a:hover {
+	background-color: #a35c5c;
+	color: #b57e7e;
+}
+
+/*Left and Right Column Layout Codes*/
+* {
+	box-sizing: border-box;
+}
+		/*Left*/
+.leftcolumn {
+	float: left;
+	width: 50%;
+	padding-right: 50px;
+}
+		/*Right*/
+.rightcolumn {
+	float: right;
+	width: 50%;
+	padding-left: 50px;
+}
+		/*Row Floats after the columns*/
+.row:"after" {
+	content: "";
+	display: table;
+	clear: both;
+}
+		/*Responsive layout - makes the 2 columns stack on top of each other instead of next to each other*/
+@media screen and (max-width:600px) {
+	.leftcolumn {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.rightcolumn {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+.card {
+	background-color: #e6e4e8;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.piccard {
+	background-color: #e6e4e8;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+/* Bottom Card of Website */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Explore links as List Types */
+ul.explore {
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.links a {
+	display: block;
+	color: #d0afaf;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Follow links as List Types */
+ul.follow {
+	text-align: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Image Sizing*/
+img {
+	width: 100%;
+	height: auto;
+}
